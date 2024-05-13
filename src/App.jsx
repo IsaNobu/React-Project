@@ -8,10 +8,15 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [details, setDetails] = useState([]);
   const [clickedButtons, setClickButtons] = useState(new Set());
+  const [items, setItems] = useState({});
+  const [cookingCount, setCookingCount] = useState(0);
+
+  const [details, setDetails] = useState([]);
+  const [cookingDetails, setCookingDetails] = useState([]);
 
   const button = (items) => {
+    setItems(items);
     if (!clickedButtons.has(items.recipe_id)) {
       setClickButtons(
         (prevClicked) => new Set([...prevClicked, items.recipe_id])
@@ -21,6 +26,20 @@ function App() {
     } else {
       toast("Already Exists");
     }
+  };
+
+  const removeButtons = (items) => {
+    const increaseClickCount = cookingCount + 1;
+    setCookingCount(increaseClickCount);
+
+    const allCookDetails = [...cookingDetails, items];
+    setCookingDetails(allCookDetails);
+
+    const startingToPrepare = details.filter(
+      (detail) => detail.recipe_id !== items.recipe_id
+    );
+    setDetails(startingToPrepare);
+    // console.log(items);
   };
 
   return (
@@ -40,7 +59,13 @@ function App() {
           <OurRecipes button={button}></OurRecipes>
         </div>
         <div className="w-1/4">
-          <WantToCook details={details}></WantToCook>
+          <WantToCook
+            removeButtons={removeButtons}
+            items={items}
+            details={details}
+            cookingCount={cookingCount}
+            cookingDetails={cookingDetails}
+          ></WantToCook>
         </div>
       </div>
     </>
