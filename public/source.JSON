@@ -1,0 +1,88 @@
+[
+  {
+    "recipe_img": "https://i.ibb.co/5jtr1cs/Tikka-Masala.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Chicken Tikka Masala",
+    "short_description": "Spicy and flavorful chicken tikka masala is a popular Indian dish made with marinated chicken in a creamy tomato sauce",
+    "ingredients": [
+      "500 g boneless, skinless chicken thighs",
+      "1 tablespoon yogurt",
+      "1 teaspoon garam masala",
+      "1/2 teaspoon turmeric",
+      "1/2 teaspoon ginger powder",
+      "1 (14.5-ounce) can diced tomatoes, undrained"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": "450 Calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/q5FBJfZ/Chicken-Curry.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Thai Green Curry",
+    "short_description": "romatic and flavorful Thai Green Curry is a quick and easy weeknight meal",
+    "ingredients": [
+      "1 tablespoon vegetable oil",
+      "1 (13.5-ounce) can coconut milk",
+      "1 green bell pepper, sliced",
+      "1 tablespoon Thai green curry paste",
+      "1 (15-ounce) can chickpeas, drained and rinsed",
+      "Fresh cilantro, for garnish (optional)"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": "350 Calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/nw9Gjjy/Chiken-and-Vegies.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Pasta Primavera",
+    "short_description": "Light and refreshing Pasta Primavera is a perfect spring or summer dish",
+    "ingredients": [
+      "1 pound asparagus, trimmed and cut into 1-inch pieces",
+      "1 pound broccoli florets",
+      "1 pound rotini pasta",
+      "1/2 cup cherry tomatoes, halved",
+      "1/4 cup crumbled feta cheese",
+      "1/4 cup olive oil"
+    ],
+    "preparing_time": "25 minutes",
+    "calories": "400 Calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/Ph62JXN/Curry-and-Rice.jpg",
+    "recipe_id": 4,
+    "recipe_name": "Creamy Mushroom Soup",
+    "short_description": "Creamy and comforting mushroom soup is a classic recipe that is easy to make at home",
+    "ingredients": [
+      "1 tablespoon butter",
+      "1 tablespoon olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 pound mushrooms, sliced",
+      "4 cups vegetable broth"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": "250 Calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/X7C20ht/Spicy-Curry.jpg",
+    "recipe_id": 5,
+    "recipe_name": "Scrambled Eggs with Spinach and Cheese",
+    "short_description": "A quick and satisfying breakfast option packed with protein",
+    "ingredients": ["Eggs", "Spinach", "Shredded Cheese", "Milk (optional)"],
+    "preparing_time": "20 minutes",
+    "calories": "300 Calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/ygnxSrW/Beef-Curry.jpg",
+    "recipe_id": 6,
+    "recipe_name": "Tomato Pasta with Garlic and Herbs",
+    "short_description": "A simple and flavorful pasta dish perfect for a weeknight meal",
+    "ingredients": ["Pasta", "Canned Tomatoes", "Garlic Cloves", "Olive Oil"],
+    "preparing_time": "20 minutes",
+    "calories": "200 Calories"
+  }
+]
+
+
+
+
