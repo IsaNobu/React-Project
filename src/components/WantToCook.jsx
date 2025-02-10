@@ -9,7 +9,6 @@ const WantToCook = ({
   cookingCount,
   cookingDetails,
 }) => {
-  console.log(cookingDetails);
   return (
     <div className="border-2 rounded-3xl p-6">
       <div className="text-center text-3xl font-bold mb-6">
@@ -42,11 +41,8 @@ const WantToCook = ({
           <h3>Calories</h3>
         </div>
         <div>
-          {cookingDetails.map((cookingDetail) => (
-            <Cooking
-              key={cookingDetail.recipe_id}
-              cookingDetail={cookingDetail}
-            ></Cooking>
+          {cookingDetails.map((cookingDetail, idx) => (
+            <Cooking key={idx} cookingDetail={cookingDetail}></Cooking>
           ))}
         </div>
         <div className="text-xl font-bold mt-6">

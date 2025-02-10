@@ -35,11 +35,18 @@ function App() {
     const allCookDetails = [...cookingDetails, items];
     setCookingDetails(allCookDetails);
 
-    const startingToPrepare = details.filter(
-      (detail) => detail.recipe_id !== items.recipe_id
+    const getArray = [];
+
+    for (const detail of details) {
+      getArray.push(detail);
+    }
+
+    console.log(getArray);
+
+    const startingToPrepare = getArray.filter(
+      (details) => details.recipe_id !== items.recipe_id
     );
     setDetails(startingToPrepare);
-    // console.log(items);
   };
 
   return (

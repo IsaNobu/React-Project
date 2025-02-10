@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 const Cooking = ({ cookingDetail }) => {
   const { recipe_name, preparing_time, calories } = cookingDetail;
 
-  console.log(cookingDetail);
-
   return (
     <div className="flex justify-evenly mb-6 mr-8 mt-6 bg-[#28282808] p-4 rounded-2xl font-bold text-xl">
       <div>
@@ -17,7 +15,7 @@ const Cooking = ({ cookingDetail }) => {
 };
 
 Cooking.propTypes = {
-  cookingDetail: PropTypes.array,
+  cookingDetail: PropTypes.object,
 };
 
 export default Cooking;
